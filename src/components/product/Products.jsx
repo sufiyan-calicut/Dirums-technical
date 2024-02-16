@@ -127,7 +127,7 @@ const Products = () => {
               >
                 {product.category}
               </p>
-              <div className="flex w-full justify-between items-end">
+              <div className={`flex w-full justify-between flex-col `}>
                 <div className="priceArea flex gap-2 items-end w-full overflow-clip">
                   <p
                     className={`text-themeBlack ${
@@ -145,13 +145,11 @@ const Products = () => {
                     /-
                   </p>
                 </div>
-                
-              </div>
-              <div className="buttonArea bg-AddToCar p-1 rounded-md">
+                <div className={`buttonArea bg-AddToCart py-2 w-fit rounded-md`}>
                   <button
-                    className={`bg-AddToCart  flex justify-center gap-1 items-center rounded-md w-36 font-bold overflow-clip  text-sm h-6 ${
+                    className={`  flex justify-center gap-1  items-center rounded-md w-36 font-bold overflow-clip  text-sm h-6 ${
                       !isSingleView && 'w-20 h-4 '
-                    }`}
+                    }p-2`}
                   >
                     <img src={cartIcon} alt="cartIcon" />
                     <div className={`${!isSingleView && 'text-2xs'}`}>
@@ -159,6 +157,20 @@ const Products = () => {
                     </div>
                   </button>
                 </div>
+                
+              </div>
+              {/* <div className="buttonArea bg-AddToCart py-2 w-fit rounded-md">
+                  <button
+                    className={`  flex justify-center gap-1  items-center rounded-md w-36 font-bold overflow-clip  text-sm h-6 ${
+                      !isSingleView && 'w-20 h-4 '
+                    }p-2`}
+                  >
+                    <img src={cartIcon} alt="cartIcon" />
+                    <div className={`${!isSingleView && 'text-2xs'}`}>
+                      ADD TO CART
+                    </div>
+                  </button>
+                </div> */}
             </div>
           </div>
         ))}
