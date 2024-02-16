@@ -34,6 +34,7 @@ export default {
       width: {
         singleProductWidth: '22.8125rem', //  365px
         doubleProductWidth: '11.0625rem', //  177px
+        buttonWidth:'70px',
 
         largeProductWidth: '22.25rem' //  356px
       },
