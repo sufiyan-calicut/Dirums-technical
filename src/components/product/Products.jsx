@@ -70,7 +70,7 @@ const Products = () => {
         </button>
       </div>
       <div
-        className={`ProductsContainer w-full h-auto mt-2 sm:mt-0 relative grid grid-cols-2 ${isSingleView && 'grid-cols-1'} md:grid-cols-3 sm:gap-2`}
+        className={`ProductsContainer w-full h-auto mt-2 sm:mt-0 relative grid  ${!isSingleView && 'grid-cols-2'} md:grid-cols-3 sm:gap-2`}
       >
         {productsData.map(product => (
           <div
@@ -145,7 +145,9 @@ const Products = () => {
                     /-
                   </p>
                 </div>
-                <div className="buttonArea bg-AddToCart p-1 rounded-md">
+                
+              </div>
+              <div className="buttonArea bg-AddToCar p-1 rounded-md">
                   <button
                     className={`bg-AddToCart  flex justify-center gap-1 items-center rounded-md w-36 font-bold overflow-clip  text-sm h-6 ${
                       !isSingleView && 'w-20 h-4 '
@@ -157,7 +159,6 @@ const Products = () => {
                     </div>
                   </button>
                 </div>
-              </div>
             </div>
           </div>
         ))}
