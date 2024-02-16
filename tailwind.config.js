@@ -8,12 +8,15 @@ export default {
         themeWhite: '#FFFFFF',
         themeBlack: '#000000',
         bgBlack: '#212121',
-        themeGray:'#D9D9D9',
-        darkThemeOrange:'#CC8E51',
-        
+        themeGray: '#D9D9D9',
+        darkThemeOrange: '#CC8E51',
+        darkFontOrange:'#BA7409',
+        AddToCart:'#E09C59',
+        footerGray:'#EAEAEA'
+
       },
       fontFamily: {
-        themeFont:'Montserrat'
+        themeFont: 'Montserrat'
       },
       fontSize: {
         '2xs': '0.4375rem', // 7px
@@ -27,6 +30,17 @@ export default {
         '4xl': '2.25rem', // 36px
         '5xl': '3rem', // 48px
         '6xl': '4rem' // 64px
+      },
+      width: {
+        singleProductWidth: '22.8125rem', //  365px
+        doubleProductWidth: '11.0625rem', //  177px
+
+        largeProductWidth: '22.25rem' //  356px
+      },
+      height: {
+        singleProductHeight: '31.0625rem', //  497px
+        doubleProductHeight: '15.0625rem', //  241px
+        largeProductHeight: '29.0625rem' //  465px
       }
     }
   },

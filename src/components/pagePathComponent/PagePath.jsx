@@ -1,4 +1,4 @@
-import ArrowForward from '../../assets/arrow_forward_ios.svg'
+import ArrowForward from '../../assets/icons/arrow_forward_ios.svg'
 
 const PagePath = () => {
   return (

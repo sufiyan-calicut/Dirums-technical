@@ -1,8 +1,8 @@
-import Logo from '../../../src/assets/Logo.svg';
-import CartIcon from '../../../src/assets/cart.svg';
-import WishlistIcon from '../../../src/assets/wishlist.svg';
-import ToggleIcon from '../../../src/assets/toggleIcon.svg';
-import SearchIcon from '../../../src/assets/search.svg';
+import Logo from '../../../src/assets/icons/Logo.svg';
+import CartIcon from '../../../src/assets/icons/cart.svg';
+import WishlistIcon from '../../../src/assets/icons/wishlist.svg';
+import ToggleIcon from '../../../src/assets/icons/toggleIcon.svg';
+import SearchIcon from '../../../src/assets/icons/search.svg';
 
 const NavbarIconsComponent = () => {
   return (
