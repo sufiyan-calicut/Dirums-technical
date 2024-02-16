@@ -1,9 +1,10 @@
 import React from 'react'
+import ProductsPage from './pages/ProductsPage'
 
 const App = () => {
   return (
-    <div className='text-iconColor h-20 w-full bg-black'>
-      Home
+    <div className=''>
+      <ProductsPage/>
     </div>
   )
 }
