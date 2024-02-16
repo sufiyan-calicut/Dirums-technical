@@ -1,6 +1,7 @@
 import Header from './partials/Header';
 import PagePath from '../components/pagePathComponent/PagePath';
 import Catogories from '../components/catogoryComponent/Catogories';
+import ProductPreview from '../components/ProductPreview/ProductPreview';
 
 const ProductsPage = () => {
   return (
@@ -12,13 +13,23 @@ const ProductsPage = () => {
       <PagePath />
       <div className="product-layout">
         <div className="mobile-layout sm:hidden">
-            
+          <div className="productsDisplayArea">
+            <div>
+              <ProductPreview />
+            </div>
+            <div>Products</div>
+          </div>
         </div>
         <div className="largeScreen-layout hidden  sm:flex">
           <div className="filterComponent min-h-screen h-auto w-1/4 border border-r-bgBlack">
             Filter
           </div>
-          <div className="productsDisplayArea">Products</div>
+          <div className="productsDisplayArea">
+            <div>
+              <ProductPreview />
+            </div>
+            <div>Products</div>
+          </div>
         </div>
       </div>
     </div>

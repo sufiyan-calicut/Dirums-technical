@@ -5,11 +5,12 @@ export default {
     extend: {
       colors: {
         iconColor: '#FFCC7E',
-        fontGray: '#FFFFFF',
+        themeWhite: '#FFFFFF',
         themeBlack: '#000000',
         bgBlack: '#212121',
         themeGray:'#D9D9D9',
-        darkThemeOrange:'#CC8E51'
+        darkThemeOrange:'#CC8E51',
+        
       },
       fontFamily: {
         themeFont:'Montserrat'
