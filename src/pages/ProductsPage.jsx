@@ -11,7 +11,9 @@ const ProductsPage = () => {
       </div>
       <PagePath />
       <div className="product-layout">
-        <div className="mobile-layout sm:hidden"> Mobile Layout</div>
+        <div className="mobile-layout sm:hidden">
+            
+        </div>
         <div className="largeScreen-layout hidden  sm:flex">
           <div className="filterComponent min-h-screen h-auto w-1/4 border border-r-bgBlack">
             Filter
