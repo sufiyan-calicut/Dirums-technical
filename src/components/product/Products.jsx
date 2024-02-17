@@ -105,10 +105,10 @@ const Products = () => {
                 className="rounded-md w-full h-full object-cover "
               />
             </div>
-            <div className="p-2">
+            <div className="">
               <h3
                 className={`text-darkFontOrange font-bold ${
-                  isSingleView ? 'text-base' : 'text-sm'
+                  isSingleView ? 'text-base' : 'text-xs'
                 }`}
               >
                 {product.productName}
